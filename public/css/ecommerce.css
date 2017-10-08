@@ -1,0 +1,123 @@
+body {
+	/*background: url('bg.png') repeat !important;*/
+	color: black;
+    background: #ebf1f6; /* Old browsers */
+    background: -moz-linear-gradient(top, #ebf1f6 0%, #abd3ee 50%, #89c3eb 51%, #d5ebfb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebf1f6), color-stop(50%,#abd3ee), color-stop(51%,#89c3eb), color-stop(100%,#d5ebfb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=0 ); /* IE6-9 */
+}
+
+#userHead{
+    text-align: right;
+    float: right;
+    width: 40%;
+    height: 50px;
+    background-color: #D63333;
+    padding-right: 20px;
+}
+
+#topNav{
+    float:left;
+    background-color: #D63333;
+    width: 40%;
+    padding-right: 20px;
+    margin-left: -10px;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+
+
+}
+
+#topNav ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+#topNav ul li{
+    display: inline;
+    margin-right: 25px;
+    list-style: none;
+
+}
+
+#topNav a{
+    text-decoration: none;
+    color: 	#F7D6D6;
+}
+
+#content {
+    clear: both;
+	width: 660px;
+	border-radius:25px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 20px;
+	background-color: #D63333;
+    text-align: center;
+}
+
+#loginContent {
+	height: 500px;
+}
+
+
+.textField {
+	position: absolute;
+	left: 670px;
+}
+
+#loginDiv input, #registerDiv input {
+//	padding:10px;
+//	position: absolute;
+//	left: 180px;
+//	float: right;
+//	clear: right;
+//	background-color: #D63333;
+}
+
+#loginDiv, #registerDiv {
+	float: left;
+    clear: both;
+	margin-left: 15px;
+	margin-top: 15px;
+	padding-left: 10px;
+	padding: 10px;
+	width: 150px;
+
+}
+
+
+.prod{
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-bottom: 150px;
+    float: left;
+}
+
+.prod p{
+	margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.prodName{
+    font-weight: bold;
+    font-size:18px;
+}
+
+.aTable{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#checkoutLink{
+    color: white;
+    font-size: 20px;
+}
